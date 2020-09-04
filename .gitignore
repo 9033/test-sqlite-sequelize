@@ -80,3 +80,5 @@ node-auction/uploads/
 
 #office temp file
 ~$*
+
+package-lock.json
