@@ -1,5 +1,5 @@
 {
-  "name": "sqlite-test",
+  "name": "test-sqlite-sequelize",
   "version": "1.0.0",
   "description": "sqlite sequelize",
   "main": "index.js",
