@@ -166,6 +166,19 @@ const main = async ()=>{
   const sum_cash = await User.sum('cash',{where:{}})
   console.log(sum_cash)
 
+  // findOrCreate
+  // [] 리턴
+  const [user, created] = await User.findOrCreate({
+    where:{
+      firstName:'턱',
+    },
+    defaults:{
+      firstName:'댕',
+      lastName:'짱',
+    },
+  })
+  console.log('findOrCreate',user.toJSON(), created);
+
   // close
   await sequelize.close();
 }
