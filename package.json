@@ -9,8 +9,8 @@
   "author": "9033",
   "license": "ISC",
   "dependencies": {
-    "sequelize": "^6.3.5",
+    "sequelize": "^6.6.5",
     "sequelize-instance": "git+https://github.com/9033/sequelize-instance.git",
-    "sqlite3": "^5.0.0"
+    "sqlite3": "^5.0.2"
   }
 }
